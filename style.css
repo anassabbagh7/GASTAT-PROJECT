@@ -1,21 +1,13 @@
-
 @font-face {
-  font-family: "Lucida-Reg";
-  src: url(./assets/fonts/LBRITE.TTF);
+  font-family: "Gothic-Reg";
+  src: url(./assets/fonts/GOTHIC.TTF);
 }
 @font-face {
-  font-family: "Lucida-Bold";
-  src: url(./assets/fonts/LBRITED.TTF);
-}
-.red {
-  border: red solid;
-}
-
-.blue {
-  border: blue solid;
+  font-family: "Gothic-Bold";
+  src: url(./assets/fonts/GOTHICB.TTF);
 }
 * {
-  font-family: "Lucida-Reg";
+  font-family: "Gothic-Reg";
   user-select: none;
 }
 ::-webkit-scrollbar {
@@ -87,7 +79,7 @@
 }
 .Header_Text {
   padding: 3% 0;
-  font-family: "Lucida-Bold";
+  font-family: "Gothic-Bold";
 }
 .Header_Search {
   padding: 3% 0;
@@ -153,7 +145,7 @@
   transition: 0.5s ease-in-out;
 }
 .Header_Tags_Item:hover {
-  background: linear-gradient(30deg, #1ac4c1 0%, #cf14cc 50%, #d97d8c 100%);
+  background: linear-gradient(30deg, #1ac4c1 0%, #d97d8c 50%, #1c8354 100%);
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -186,7 +178,7 @@
 .Slide_Title {
   color: #ffffff;
   text-transform: capitalize;
-  font-family: "Lucida-Bold";
+  font-family: "Gothic-Bold";
 }
 .Slider_Main {
   background-color: #ffffff;
@@ -213,7 +205,7 @@
   height: 2rem;
 }
 .Card_Item_Title {
-  font-family: "Lucida-Bold";
+  font-family: "Gothic-Bold";
   font-size: 1.2rem;
   text-transform: capitalize;
   height: 2rem;
@@ -289,7 +281,7 @@
   border: #022c1b solid 1px;
   border-radius: 5px;
   transition: 0.3s ease-in-out;
-  font-size: .8rem;
+  font-size: 0.8rem;
 }
 .Show_All_Button:hover {
   background-color: #1c8354;
@@ -304,7 +296,7 @@
 .Latest_News_Content .col {
   transition: 0.3s ease-in-out;
 }
-.Latest_News_Link{
+.Latest_News_Link {
   text-decoration: none;
 }
 .Latest_News_Content .col:hover {
@@ -323,14 +315,14 @@
 }
 .Latest_News_Content_Text {
   font-size: 0.8rem;
-  font-family: "Lucida-Bold";
+  font-family: "Gothic-Bold";
   line-height: 1rem;
   height: 3rem;
   color: #022c1b;
 }
 .Latest_News_Content_Date {
   font-size: 0.8rem;
-  font-family: "Lucida-Bold";
+  font-family: "Gothic-Bold";
   line-height: 1.33rem;
   color: #858585;
 }
@@ -394,7 +386,7 @@
 .Publication_List_Item_Text {
   color: #022c1b;
   font-size: 1rem;
-  font-family: "Lucida-Bold";
+  font-family: "Gothic-Bold";
   line-height: 3rem;
 }
 .list-group-item {
@@ -402,7 +394,7 @@
   cursor: pointer;
 }
 .list-group-item:hover {
-  font-size: .905rem;
+  font-size: 0.905rem;
   background-color: #e9e9e9;
 }
 .Statistical_Calendar_Date_Container {
@@ -413,8 +405,8 @@
   color: #ffffff;
 }
 .Statistical_Calendar_Day {
-  font-family: "Lucida-Bold";
-  font-size: .9rem;
+  font-family: "Gothic-Bold";
+  font-size: 0.9rem;
 }
 .Statistical_Calendar_Month {
   font-size: 0.7rem;
@@ -427,13 +419,13 @@
   background-color: #e6e7eb;
 }
 .Footer_Title {
-  font-family: "Lucida-Bold";
+  font-family: "Gothic-Bold";
   line-height: 3rem;
   font-size: 1rem;
   border-bottom: 1px solid #adadad;
 }
 .Footer_List {
-  font-size: .8rem;
+  font-size: 0.8rem;
   background: none !important;
   line-height: 1.2rem !important;
   height: 2.5rem !important;
